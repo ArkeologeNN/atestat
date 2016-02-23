@@ -12,6 +12,8 @@
         // Initialize indicators with 0 opacity
         $(function() {
             $('.nav-item span').fadeTo(0, 0);
+            $('#about-dialog').fadeTo(0, 0);
+            $('#gallery-dialog').hide();
         });
     </script>
 </head>
