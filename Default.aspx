@@ -14,9 +14,9 @@
 
         <div id="nav-wrapper">
             <ul id="nav">
-                <li class="nav-item">Home</li>
-                <li class="nav-item">Gallery</li>
-                <li class="nav-item">About</li>
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Gallery</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
             </ul>
         </div> <!-- end of NAV -->
 
