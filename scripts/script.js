@@ -10,4 +10,15 @@
 		var itemID = $(this).attr('data-ind');
 		$("#" + itemID).fadeTo(50, 0);
 	});
+
+	var aboutDialog = true;
+	$('#about').on('click', function() {
+		if (aboutDialog === true) {
+			$('#about-dialog').fadeTo(200, 1);
+			aboutDialog = false;
+		} else {
+			$('#about-dialog').fadeTo(200, 0);
+			aboutDialog = true;
+		}
+	});
 });

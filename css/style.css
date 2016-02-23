@@ -111,3 +111,30 @@
     color: #fff;
     padding-top: 15px;
 } /* end of login-buttons */
+
+#about-dialog {
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    top: 20px;
+    right: 300px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#about-dialog p{
+    padding-top: 20px;
+    color: #fff;
+} /* end of about dialog setup */
+
+/* make buttons to select nothing on double click */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}

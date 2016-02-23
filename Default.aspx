@@ -47,6 +47,10 @@
 
         </div> <!-- end of Right-panel -->
 
+        <div id="about-dialog">
+            <p>This will be your about stuff.</p>
+        </div>
+
     </div>
 
     </form>
