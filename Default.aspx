@@ -51,6 +51,13 @@
             <p>This will be your about stuff.</p>
         </div>
 
+        <div id="gallery-dialog">
+            <div class="controls" id="close-control"></div>
+            <div class="controls" id="left-control"></div>
+            <div class="controls" id="right-control"></div>
+            <!--<img id="gallery-image" src=""/>-->
+        </div>
+
     </div>
 
     </form>
