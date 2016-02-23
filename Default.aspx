@@ -5,8 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="atestat/css/style.css"/>
-    <script type="text/javascript" src="atestat/scripts/jquery-1.12.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script type="text/javascript" src="scripts/jquery-1.12.1.js"></script>
 
     <script type="text/javascript">
         // Initialize indicators with 0 opacity
@@ -50,6 +50,6 @@
     </div>
 
     </form>
-    <script type="text/javascript" src="atestat/scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>
