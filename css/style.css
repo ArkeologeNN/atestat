@@ -138,3 +138,50 @@
   user-select: none;           /* non-prefixed version, currently
                                   not supported by any browser */
 }
+
+
+#gallery-dialog {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #7e7e7e;
+}
+
+/*#gallery-image {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}*/
+
+#close-control {
+    background: url("../images/controls/close.png");
+    background-size: cover;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+#left-control {
+    background: url("../images/controls/left.png");
+    background-size: cover;
+    position: fixed;
+    left: 10px;
+    top: 50%;
+}
+
+#right-control {
+    background: url("../images/controls/right.png");
+    background-size: cover;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+}
+
+.controls {
+    opacity: .3;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
