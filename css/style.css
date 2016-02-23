@@ -22,11 +22,12 @@
 {
     display: inline-block;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .nav-item
 {
+    list-style-type: none;
     background-color: rgba(0, 0, 0, .5);
     margin-bottom: 5px;
     border-radius: 3px;
@@ -51,4 +52,26 @@
     color: #fff;
     top: 6px;
     padding-left: 5px;
+}
+
+#right-panel {
+    height: 500px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+
+#social-wrapper {
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.social-element {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /*margin-right: 5px;*/
+    background-color: #000;
+    cursor: pointer;
 }

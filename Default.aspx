@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
     <link rel="stylesheet" type="text/css" href="atestat/css/style.css"/>
-    <script type="text/javascript" src="scripts/jquery-1.12.1.js"></script>
+    <script type="text/javascript" src="atestat/scripts/jquery-1.12.1.js"></script>
 
     <script type="text/javascript">
         // Initialize indicators with 0 opacity
@@ -28,9 +28,28 @@
             </ul>
         </div> <!-- end of NAV -->
 
+        <div id="right-panel">
+            <div id="social-wrapper">
+                <div class="social-element" id="about"></div>
+                <div class="social-element" id="facebook"></div>
+                <div class="social-element" id="twitter"></div>
+                <div class="social-element" id="email"></div>
+                <div class="social-element" id="rss-feed"></div>
+            </div> <!-- end of Social-wrapper -->
+
+            <div id="Stuff">
+                
+            </div> <!-- end of Stuff -->
+
+            <div id="login-buttons">
+                
+            </div> <!-- end of login-buttons -->
+
+        </div> <!-- end of Right-panel -->
+
     </div>
 
     </form>
-    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="atestat/scripts/script.js"></script>
 </body>
 </html>
