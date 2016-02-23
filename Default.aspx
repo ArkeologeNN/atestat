@@ -31,9 +31,9 @@
         <div id="right-panel">
             <div id="social-wrapper">
                 <div class="social-element" id="about"></div>
+                <div class="social-element" id="email"></div>
                 <div class="social-element" id="facebook"></div>
                 <div class="social-element" id="twitter"></div>
-                <div class="social-element" id="email"></div>
                 <div class="social-element" id="rss-feed"></div>
             </div> <!-- end of Social-wrapper -->
 

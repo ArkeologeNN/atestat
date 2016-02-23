@@ -70,9 +70,17 @@
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: #000;
     cursor: pointer;
-} /* end of Right social bar */
+} 
+
+#about {background: url("../images/about.jpg"); background-size: cover;}
+#email {background: url("../images/email.jpg"); background-size: cover;}
+#facebook {background: url("../images/fblogo.jpg"); background-size: cover;}
+#twitter {background: url("../images/twlogo.jpg"); background-size: cover;}
+#rss-feed {background: url("../images/rss.jpg"); background-size: cover;}
+
+
+/* end of Right social bar */
 
 #Stuff {
     background-color: #222;
