@@ -38,11 +38,11 @@
             </div> <!-- end of Social-wrapper -->
 
             <div id="Stuff">
-                
+                <p>Aci bagi tu ce vrei.</p>
             </div> <!-- end of Stuff -->
 
             <div id="login-buttons">
-                
+                <p>Aci vin butoanele.</p>
             </div> <!-- end of login-buttons -->
 
         </div> <!-- end of Right-panel -->
