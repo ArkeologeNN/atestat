@@ -10,7 +10,7 @@
     <script type="text/javascript">
         // Initialize indicators with 0 opacity
         $(function() {
-            $('.nav-item span').fadeTo(0, 0);
+            $('.nav-item img').fadeTo(0, 0);
             $('#about-dialog').fadeTo(0, 0);
             $('#gallery-dialog').hide();
         });
@@ -25,9 +25,9 @@
 
         <div id="nav-wrapper">
             <ul id="nav">
-                <li class="nav-item"><span id="ind1">></span><a href="#" data-ind="ind1">Home</a></li>
-                <li class="nav-item"><span id="ind2">></span><a href="javascript:void(0);" data-ind="ind2" id="gallery">Gallery</a></li>
-                <li class="nav-item"><span id="ind3">></span><a href="#" data-ind="ind3">About</a></li>
+                <li class="nav-item"><img id="ind1" src="images/controls/right.png"/><a href="#" data-ind="ind1">Home</a></li>
+                <li class="nav-item"><img id="ind2" src="images/controls/right.png"/><a href="javascript:void(0);" data-ind="ind2" id="gallery">Gallery</a></li>
+                <li class="nav-item"><img id="ind3" src="images/controls/right.png"/><a href="#" data-ind="ind3">About</a></li>
             </ul>
         </div> <!-- end of NAV -->
 

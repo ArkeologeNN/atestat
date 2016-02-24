@@ -35,11 +35,11 @@
 	});
 	 /* gallery buttons fading */
 	$('.controls').on('mouseenter', function() {
-		$(this).fadeTo(200, .7);
+		$(this).fadeTo(200, .8);
 	});
 
 	$('.controls').on('mouseleave', function() {
-		$(this).fadeTo(200, .3);
+		$(this).fadeTo(200, .5);
 	});
 });
 
