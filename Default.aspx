@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script type="text/javascript" src="scripts/jquery-1.12.1.js"></script>
 
     <script type="text/javascript">
@@ -16,6 +15,8 @@
             $('#gallery-dialog').hide();
         });
     </script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -25,18 +26,18 @@
         <div id="nav-wrapper">
             <ul id="nav">
                 <li class="nav-item"><span id="ind1">></span><a href="#" data-ind="ind1">Home</a></li>
-                <li class="nav-item"><span id="ind2">></span><a href="#" data-ind="ind2">Gallery</a></li>
+                <li class="nav-item"><span id="ind2">></span><a href="javascript:void(0);" data-ind="ind2" id="gallery">Gallery</a></li>
                 <li class="nav-item"><span id="ind3">></span><a href="#" data-ind="ind3">About</a></li>
             </ul>
         </div> <!-- end of NAV -->
 
         <div id="right-panel">
             <div id="social-wrapper">
-                <div class="social-element" id="about"></div>
-                <div class="social-element" id="email"></div>
-                <div class="social-element" id="facebook"></div>
-                <div class="social-element" id="twitter"></div>
-                <div class="social-element" id="rss-feed"></div>
+                <div class="social-element noselect" id="about"></div>
+                <div class="social-element noselect" id="email"></div>
+                <div class="social-element noselect" id="facebook"></div>
+                <div class="social-element noselect" id="twitter"></div>
+                <div class="social-element noselect" id="rss-feed"></div>
             </div> <!-- end of Social-wrapper -->
 
             <div id="Stuff">
@@ -54,10 +55,12 @@
         </div>
 
         <div id="gallery-dialog">
-            <div class="controls" id="close-control"></div>
-            <div class="controls" id="left-control"></div>
-            <div class="controls" id="right-control"></div>
-            <!--<img id="gallery-image" src=""/>-->
+            <div id="gallery-image" class="contain-bg">
+                <div class="controls" id="close-control"></div>
+                <div class="controls" id="left-control"></div>
+                <div class="controls" id="right-control"></div>
+                <!--<img id="gallery-image" src="atestat/images/slideshow/1.jpg"/>-->
+            </div>
         </div>
 
     </div>
