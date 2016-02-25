@@ -66,6 +66,7 @@
     </div>
 
     </form>
-    <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/javascript.js"></script>
+    <script type="text/javascript" src="scripts/jquery.js"></script>
 </body>
 </html>
